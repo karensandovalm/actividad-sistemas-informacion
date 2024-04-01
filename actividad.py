@@ -1,10 +1,11 @@
 num = []
 
 for i in range(6):
-    n = int(input("Ingrese un numero: "))
-    num.append(n)
-
-
+    try:
+        n = int(input("Ingrese un numero: "))
+        num.append(n)
+    except:
+        print("Ingrese un numero")
 multiplos = []
 
 for num in num:
