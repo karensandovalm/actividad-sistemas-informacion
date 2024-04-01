@@ -14,4 +14,4 @@ for num in num:
 
 print("Los multiplos de 2 son:", multiplos)
 
-hjhjhjh
+
